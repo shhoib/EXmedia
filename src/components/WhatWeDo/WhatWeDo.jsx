@@ -13,7 +13,7 @@ const items = [
         gif:'https://i.pinimg.com/originals/d5/30/ec/d530eca8a16208c6e0dccf33553b4260.gif'
     },
     {
-        heading : 'YOUR BRAND, YOUR STORY: WE SHAPE IDENTITIES WITH IMPACT',
+        heading : 'Experts in solving the WHY,WHERE and HOW of propelling your business to new frontiers',
         subHeading : 'MARKET',
         gif:'https://i.pinimg.com/originals/3f/d5/0a/3fd50a92ee38232eedb90b5d4279e63f.gif'
     },
@@ -25,7 +25,7 @@ const WhatWeDo = () => {
     <Container>
       <div className=" flex flex-col items-center">
       <div className="overflow-hidden mt-5 w-fit flex items-center justify-center rounded-md relative before:absolute before:bg-red-500 before:w-[120%] before:h-1/2 before:animate-[spin_6s_ease-in-out_infinite] after:absolute after:inset-[2px] px-4 py-2  after:bg-black after:rounded-md">
-             <h1 className="text-5xl relative font-bold text-white  rounded-lg z-10">What <span className="text-6xl text-red-600">We</span> Do</h1>
+             <h1 className="text-3xl md:text-5xl relative font-bold text-white  rounded-lg z-10">What <span className="text-5xl md:text-6xl text-red-600">We</span> Do</h1>
           </div>
        <h2 className="text-white font-bold mt-2">We Offer Digital Solutions</h2>
 
@@ -35,7 +35,6 @@ const WhatWeDo = () => {
         ))
        }
       </div>
-      {/* <div className="h-[500px] bg-red-400"></div> */}
 
     </Container>
     </div>
