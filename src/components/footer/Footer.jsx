@@ -25,10 +25,11 @@ const item3 = ['INSTAGRAM','FACEBOOK','TWITTER','YOUTUBE','THREADS']
 const Footer = () => {
 
   return (
-    <footer className="bg-gradient-to-b from-black to-zinc-900 text-white pt-14 text-xs md:text-base ">
+    <footer className=" bg-gradient-to-b from-black to-zinc-900 text-white pt-14 text-xs md:text-base ">
         <Container>
           <hr  className="pb-6 border-red-900"/>
-            <div className="flex justify-around">
+          {/* <img src="/Images/exlogo.png" alt="" /> */}
+            <div className="flex justify-around bg-[url('/Images/exlogo.png')] bg-no-repeat bg-contain bg-center">
                 <div>
                     {
                         item1.map((item,i)=>(
@@ -42,7 +43,7 @@ const Footer = () => {
                         item2.map((item,i)=>(
                           <div key={i} className="flex items-center gap-4 md:gap-6 m-3 md:m-4 font-bold cursor-pointer transition-all delay-75 hover:text-red-500">
                             {item.icon}
-                            <h2>{item.text}</h2>
+                            <h2 className="font-ffont">{item.text}</h2>
                           </div>
                         ))
                     }
